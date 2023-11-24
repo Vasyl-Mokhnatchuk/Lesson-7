@@ -37,7 +37,6 @@ function parseAndValidateArray(input) {
         return isNaN(num) ? null : num;
     });
 
-    // Перевірка чи користувач ввів цифри а не букви
     if (inputArray.includes(null)) {
         return null;
     }
